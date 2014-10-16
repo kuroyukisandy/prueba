@@ -19,7 +19,12 @@ namespace WindowsFormsApplication1
 
         private void B_msj_Click(object sender, EventArgs e)
         {
-            L_msj.Text = "Harold TE AMO <3 ";
+            L_msj.Text = "Haro TE AMO <3 ";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            L_msj.Text = "Kuro yo también";
         }
     }
 }

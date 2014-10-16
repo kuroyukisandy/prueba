@@ -30,11 +30,12 @@
         {
             this.B_msj = new System.Windows.Forms.Button();
             this.L_msj = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // B_msj
             // 
-            this.B_msj.Location = new System.Drawing.Point(168, 33);
+            this.B_msj.Location = new System.Drawing.Point(70, 32);
             this.B_msj.Name = "B_msj";
             this.B_msj.Size = new System.Drawing.Size(146, 43);
             this.B_msj.TabIndex = 0;
@@ -52,11 +53,22 @@
             this.L_msj.Size = new System.Drawing.Size(0, 46);
             this.L_msj.TabIndex = 1;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(223, 32);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(137, 43);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Surprise";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // F_prueba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 262);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.L_msj);
             this.Controls.Add(this.B_msj);
             this.Name = "F_prueba";
@@ -70,6 +82,7 @@
 
         private System.Windows.Forms.Button B_msj;
         private System.Windows.Forms.Label L_msj;
+        private System.Windows.Forms.Button button1;
     }
 }
 
